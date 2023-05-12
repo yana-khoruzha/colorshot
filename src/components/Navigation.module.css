@@ -1,0 +1,30 @@
+.nav {
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.logo {
+    margin: 10px;
+}
+.input {
+    width: 278px;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    background-color: #EFEFEF;
+    padding: 0 5px;
+
+}
+.input::placeholder {
+    background: url(./images/Vector.png) no-repeat;
+}
+
+.menu_Buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px 10px;
+}
