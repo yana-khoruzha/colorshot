@@ -1,13 +1,22 @@
-.nav {
+.header {
     border-bottom: 1px solid #DBDBDB;
+
+}
+
+.wrapper {
+    max-width: 975px;
+    margin: 0 auto;
+}
+
+.nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding-top: 5px;
 }
 
 .logo {
-    margin: 10px;
+    margin: 10px 280px 0 0;
 }
 .input {
     width: 278px;
@@ -16,6 +25,7 @@
     border-radius: 6px;
     background-color: #EFEFEF;
     padding: 0 5px;
+    margin-right: 81px;
 
 }
 .input::placeholder {
@@ -26,5 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5px 10px;
+    gap: 26px;
 }
+
+

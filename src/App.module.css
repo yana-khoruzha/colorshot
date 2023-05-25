@@ -1,4 +1,14 @@
+.fontLink {
+  font-family: 'Roboto', sans-serif;
+}
+
+.section {
+  background-color: #FAFAFA;
+}
+
 .wrapper {
   max-width: 973px;
   margin: auto;
+  background-color: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
 }

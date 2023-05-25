@@ -1,0 +1,94 @@
+.wrapper {
+    max-width: 975px;
+    margin: 0 auto;
+    border-bottom: 1px solid #DBDBDB;
+
+}
+
+.userInfo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar {
+    margin: 88px 106px 0 76px;
+}
+
+.nameAndButtons {
+    display: flex;
+    margin: 42px 0 32px;
+}
+
+.about h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin: 0 24px 0 0;
+}
+
+.sendMessage {
+    width: 123px;
+    height: 31px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.subscribed {
+    width: 74px;
+    height: 31px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    margin-right: 10px;
+}
+
+.arrow {
+    width: 33px;
+    height: 31px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+}
+
+.counters {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    gap: 76px;
+    margin-bottom: 32px;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.counter {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.header {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.subheader {
+    color: #989898;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 96px;
+}
